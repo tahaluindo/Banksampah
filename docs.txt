@@ -1,0 +1,25 @@
+===============================================================================================
+
+1- file admin.transaksi.js
+    - line 344 elInputHarga.value = parseFloat(parseFloat(jumlahKg)*parseInt(harga)).toFixed(2);
+    - line 1216-1247
+
+2- database table setor_sampah jumlah_rp jadi decimal(11,2)
+
+3- database table dompet uang jadi decimal(11,2)
+
+4- controller transaksi.php
+    - line 125 Rp ".number_format($key['jumlah_rp'] , 2, '.', ',')."
+    - line 154 Rp ".number_format($totalRp , 2, '.', ',')."
+    - line 421 $totUangSetor = $totUangSetor+(float)$key['jumlah_rp'];
+    - line 451 Rp ".number_format($key['jumlah_rp'] , 2, '.', ',')."
+    - line 464 Rp ".number_format($totalRp , 2, '.', ',')."
+    - line 478-528
+
+5- database table jual_sampah
+    - harga_nasabah jadi decimal(11,2)
+    - jumlah_rp jadi decimal(11,2)
+
+6- hilangkan Rp di list cetak detil transaksi dan ubah ke text-right
+7- gunakan modal-lg saat pejualan sampah line 1125 dan 1129
+8- sorting jenis sampah line 265 admin.transaksi.js

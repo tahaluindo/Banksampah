@@ -1,0 +1,25 @@
+{
+  "name": "bsbl",
+  "version": "1.0.0",
+  "description": "web bank sampah budiluhur",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "purgecss --config ./purgecss.config.js --output public/assets/css/purge/bootstrap/homepage.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korospace/banksampah.git"
+  },
+  "author": "korospace,einsa,rilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korospace/banksampah/issues"
+  },
+  "homepage": "https://github.com/korospace/banksampah#readme",
+  "dependencies": {
+    "purgecss": "^4.0.3"
+  }
+}

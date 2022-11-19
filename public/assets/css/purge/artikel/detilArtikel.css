@@ -1,0 +1,608 @@
+/* Preloader */
+
+@keyframes preloader-fx {
+	0% {
+		transform: scale(0, 0);
+		opacity: 0.5;
+	}
+
+	100% {
+		transform: scale(1, 1);
+		opacity: 0;
+	}
+}
+
+/* End Preloader */
+
+/*======================================
+	01. Header CSS
+========================================*/
+/* Topbar */
+
+/* Logo */
+.header .logo {
+	float: left;
+	margin-top: 35px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+/* Main Menu */
+
+.header .nav li a i {
+	margin-left: 6px;
+	font-size: 10px;
+}
+
+/* Dropdown Menu */
+
+/* Topbar Left Nav */
+
+/* Shopping Cart */
+
+/* Header Middle */
+
+/* Search Form */
+
+/*======================================
+   Hero Area CSS
+========================================*/
+
+/* Start Hero Area 2 CSS */
+
+/* Owl Nav CSS */
+
+/* Hero Area 3 */
+
+/* Hero Area 4 */
+
+/*======================================
+   End Hero Area CSS
+========================================*/
+
+/*======================================
+   Start Small Banner CSS
+========================================*/
+
+/*======================================
+   End Small Banner CSS
+========================================*/
+
+/*======================================
+   Start Mid Banner CSS
+========================================*/
+
+/*======================================
+   End Mid Banner CSS
+========================================*/
+
+/*======================================
+   Start Most Popular CSS
+========================================*/
+
+/* Slider Nav */
+
+/*======================================
+   End Most Popular CSS
+========================================*/
+
+/*======================================
+   Start Single Product CSS
+========================================*/
+
+/* Sinlge Product */
+
+/*======================================
+   End Single Product CSS
+========================================*/
+
+/*======================================
+   Start Shop Sidebar CSS
+========================================*/
+
+/* Shop Price */
+
+/* Category List */
+
+/* Recent Post */
+
+/* Shop Topbar */
+
+/*======================================
+   End Shop Sidebar CSS
+========================================*/
+
+/*======================================
+   Start Shop Single CSS
+========================================*/
+
+/* Size */
+
+/* Product Tab */
+
+/*======================================
+   End Shop Single CSS
+========================================*/
+
+/*======================================
+   Start Shop Home List CSS
+========================================*/
+
+/*======================================
+   End Shop Home List CSS
+========================================*/
+
+/*======================================
+   Start Cart Catalog
+========================================*/
+
+li {
+    list-style: none;
+    line-height: 50px;
+    color: #000
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        width: 98%;
+        display: flex;
+        flex-flow: column;
+        text-align: center
+    }
+}
+
+/*======================================
+   End Cart Catalog
+========================================*/
+
+/*======================================
+   Start Shopping Cart CSS
+========================================*/
+
+/*======================================
+   End Shopping Cart CSS
+========================================*/
+
+/*======================================
+   Start Checkout Form CSS
+========================================*/
+
+/*======================================
+   End Checkout Form CSS
+========================================*/
+
+/*======================================
+   Login & Register CSS
+========================================*/
+
+/*======================================
+	End Login CSS
+========================================*/
+
+/*======================================
+   Start Shop List CSS
+========================================*/
+
+/* Pagination CSS */
+
+/*======================================
+   End Shop List CSS
+========================================*/
+
+/*=============================
+	Start Cowndown CSS
+===============================*/
+
+/*=============================
+	End Cowndown CSS
+===============================*/
+
+/*======================================
+   Start Shop Services CSS
+========================================*/
+
+/*======================================
+   End Shop Services CSS
+========================================*/
+
+/*======================================
+   Start Shop Newsletter CSS
+========================================*/
+
+/*======================================
+   End Shop Newsletter CSS
+========================================*/
+
+/*=============================
+	About US CSS
+===============================*/
+
+/*=============================
+	End About US CSS
+===============================*/
+
+/*======================================
+  10. Start Team CSS
+========================================*/
+
+/*======================================
+  End Team CSS
+========================================*/
+
+/*======================================
+   Start Shop Blog CSS
+========================================*/
+
+/* Related Product */
+
+/* Blog Sidebar */
+.main-sidebar {
+	background: #fff;
+	margin-top: 30px;
+	padding: 40px;
+	background: transparent;
+	border: 1px solid #eeeeeec2;
+}
+
+.main-sidebar .single-widget {
+	margin-bottom: 50px;
+}
+
+.main-sidebar .single-widget .title {
+	position: relative;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	display: block;
+	background: #fff;
+	padding-left: 12px;
+}
+
+.main-sidebar .single-widget .title::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: -1px;
+	height: 100%;
+	width: 3px;
+	background: #c1d966;
+}
+
+.main-sidebar .single-widget:last-child {
+	margin: 0;
+}
+
+.main-sidebar .search {
+	position: relative;
+}
+
+.main-sidebar .search input {
+	width: 100%;
+	height: 45px;
+	box-shadow: none;
+	text-shadow: none;
+	font-size: 14px;
+	border: none;
+	color: #222;
+	background: transparent;
+	padding: 0 70px 0 20px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	border-radius: 0;
+	border: 1px solid #eee;
+}
+
+.main-sidebar .search .button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 44px;
+	width: 50px;
+	line-height: 45px;
+	box-shadow: none;
+	text-shadow: none;
+	text-align: center;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	background: #333;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.main-sidebar .search .button:hover {
+	background: #c1d966;
+	color: #fff;
+}
+
+/* Category List */
+.main-sidebar .categor-list {
+	margin-top: 15px;
+}
+
+.main-sidebar .categor-list li {}
+
+.main-sidebar .categor-list li {
+	margin-bottom: 10px;
+}
+
+.main-sidebar .categor-list li:last-child {
+	margin-bottom: 0px;
+}
+
+.main-sidebar .categor-list li a {
+	display: inline-block;
+	color: #333;
+	font-size: 14px;
+}
+
+.main-sidebar .categor-list li a:hover {
+	color: #c1d966;
+	padding-left: 7px;
+}
+
+.main-sidebar .categor-list li a i {
+	display: inline-block;
+	margin-right: 0px;
+	font-size: 9px;
+	transform: translateY(-1px);
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.main-sidebar .categor-list li a:hover i {
+	margin-right: 6px;
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Recent Post */
+.main-sidebar .recent-post {}
+
+.main-sidebar .single-post {
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	display: inline-block;
+	padding: 17px 0;
+}
+
+.main-sidebar .single-post:last-child {
+	padding-bottom: 0px;
+	border: none;
+}
+
+.main-sidebar .single-post .image {}
+
+.main-sidebar .single-post .image img {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+}
+
+.main-sidebar .single-post .content {
+	padding-left: 100px;
+}
+
+.main-sidebar .single-post .content h5 {
+	line-height: 18px;
+}
+
+.main-sidebar .single-post .content h5 a {
+	color: #2C2D3F;
+	font-weight: 500;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 10px;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.main-sidebar .single-post .content h5 a:hover {
+	color: #c1d966;
+}
+
+.main-sidebar .single-post .content .comment {}
+
+.main-sidebar .single-post .content .comment li {
+	color: #888;
+	display: inline-block;
+	margin-right: 15px;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.main-sidebar .single-post .content .comment li:last-child {
+	margin-right: 0;
+}
+
+.main-sidebar .single-post .content .comment li i {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/* Blog Tags */
+
+/* Blog Newslatter CSS */
+
+/* Blog Single CSS */
+.blog-single {
+	background: #fff;
+	padding: 70px 0 100px;
+}
+
+.blog-single .blog-single-main {
+	margin-top: 30px;
+	background: #fff;
+}
+
+.blog-single .blog-detail {
+	background: #fff;
+}
+
+.blog-single .image {
+	position: relative;
+}
+
+.blog-single .image img {
+	width: 100%;
+	height: 100%;
+}
+
+.blog-single .blog-title {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 40px 0 15px 0;
+}
+
+.blog-single .blog-meta {
+	margin-bottom: 0;
+	overflow: hidden;
+	border-bottom: 1px solid #dddddd6e;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+}
+
+.blog-single .blog-meta .author i {
+	color: #c1d966;
+	margin-right: 10px;
+	font-size: 13px;
+}
+
+.blog-single .blog-meta .author a {
+	font-size: 13px;
+	border-right: 1px solid #ddd;
+	padding: 0px 15px;
+}
+
+.blog-single .blog-meta .author a:first-child {
+	padding-left: 0;
+}
+
+.blog-single .blog-meta .author a:last-child {
+	padding-right: 0;
+	border: none;
+}
+
+.blog-single .blog-meta span {
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+}
+
+.blog-single .blog-meta span a i {
+	margin-right: 10px;
+	color: #c1d966;
+}
+
+.blog-single .blog-meta span a:hover {
+	color: #c1d966;
+}
+
+.blog-single .content p {
+	margin-bottom: 25px;
+	line-height: 26px;
+}
+
+.blog-single .content p:last-child {
+	margin: 0;
+}
+
+/* Comments */
+
+/* Comment Form */
+
+/*======================================
+   End Shop Blog CSS
+========================================*/
+
+
+/*======================================
+  21. Contact CSS
+========================================*/
+.contact-us {
+	position: relative;
+	z-index: 43;
+}
+
+.contact-us .title {
+	margin-bottom: 30px;
+}
+
+.contact-us .title h4 {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 5px;
+	color: #c1d966;
+}
+
+.contact-us .title h3 {
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+
+.contact-us .form .button {
+	margin: 0;
+}
+
+/*======================================
+  End Contact CSS
+========================================*/
+
+/* Mail Success */
+
+/*=============================
+	Start 404 Error CSS
+===============================*/
+
+/*=============================
+	/End 404 Error CSS
+===============================*/
+
+/*=============================
+	20. Start Footer CSS
+===============================*/
+.footer {
+	background: #222;
+}
+
+.footer .social {}
+
+.footer .social ul {
+	margin-top: 20px;
+}
+
+.footer .social ul li {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.footer .social ul li:last-child {
+	margin-right: 0;
+}
+
+.footer .social ul li a {
+	color: #fff;
+	display: block;
+	font-size: 16px;
+}
+
+.footer .social ul li a:hover {
+	color: #c1d966;
+}
+
+/* Copyright */
+
+/*=============================
+	End Footer CSS
+===============================*/

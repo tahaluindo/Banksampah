@@ -1,0 +1,135 @@
+a,input,h1, h2, h3, h4, h5, h6{
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+
+/* Blog Sidebar */
+.main-sidebar {
+  background: #fff;
+  position: relative;
+  margin-top: 3rem;
+  padding-top: 50rem;
+  top: 0;
+  right: 0;
+  padding: 40px;
+  background: transparent;
+  border: 1px solid #eeeeeec2;
+  z-index: 3;
+}
+
+.main-sidebar .single-widget {
+  margin-bottom: 50px;
+}
+
+.main-sidebar .single-widget .title {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  display: block;
+  background: #fff;
+  padding-left: 12px;
+}
+
+.main-sidebar .single-widget .title::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -1px;
+  height: 100%;
+  width: 3px;
+  background: #c1d966;
+}
+
+.main-sidebar .single-widget:last-child {
+  margin: 0;
+}
+
+.main-sidebar .search {
+  position: relative;
+}
+
+.main-sidebar .search input {
+  width: 100%;
+  height: 45px;
+  box-shadow: none;
+  text-shadow: none;
+  font-size: 14px;
+  border: none;
+  color: #222;
+  background: transparent;
+  padding: 0 70px 0 20px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 0;
+  border: 1px solid #eee;
+}
+
+.main-sidebar .search .button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 44px;
+  width: 50px;
+  line-height: 45px;
+  box-shadow: none;
+  text-shadow: none;
+  text-align: center;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  background: #333;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-sidebar .search .button:hover {
+  background: #c1d966;
+  color: #fff;
+}
+
+/* Category List */
+.main-sidebar .categor-list {
+  margin-top: 15px;
+}
+
+.main-sidebar .categor-list li {
+  margin-bottom: 10px;
+}
+
+.main-sidebar .categor-list li:last-child {
+  margin-bottom: 0px;
+}
+
+.main-sidebar .categor-list li a {
+  display: inline-block;
+  color: #333;
+  font-size: 14px;
+}
+
+.main-sidebar .categor-list li a:hover {
+  color: #c1d966;
+  padding-left: 7px;
+}
+
+.main-sidebar .categor-list li a i {
+  display: inline-block;
+  margin-right: 0px;
+  font-size: 9px;
+  transform: translateY(-1px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-sidebar .categor-list li a:hover i {
+  margin-right: 6px;
+  opacity: 1;
+  visibility: visible;
+}
